@@ -1,0 +1,1176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C170DC028D69EBF00D7A4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DBF28D69EBF00D7A4FD /* AppDelegate.swift */; };
+		7C170DC228D69EBF00D7A4FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DC128D69EBF00D7A4FD /* SceneDelegate.swift */; };
+		7C170DC428D69EBF00D7A4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DC328D69EBF00D7A4FD /* ViewController.swift */; };
+		7C170DC728D69EBF00D7A4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C170DC528D69EBF00D7A4FD /* Main.storyboard */; };
+		7C170DC928D69EC000D7A4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C170DC828D69EC000D7A4FD /* Assets.xcassets */; };
+		7C170DCC28D69EC000D7A4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C170DCA28D69EC000D7A4FD /* LaunchScreen.storyboard */; };
+		7C170DD728D69EC000D7A4FD /* Automatic_MVP_Attempt_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DD628D69EC000D7A4FD /* Automatic_MVP_Attempt_1Tests.swift */; };
+		7C170DE128D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DE028D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITests.swift */; };
+		7C170DE328D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DE228D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITestsLaunchTests.swift */; };
+		7C170DE728D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7C170DE628D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7C170DED28D69EC000D7A4FD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C170DEB28D69EC000D7A4FD /* Interface.storyboard */; };
+		7C170DEF28D69EC100D7A4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C170DEE28D69EC100D7A4FD /* Assets.xcassets */; };
+		7C170DF528D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7C170DF428D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7C170DFA28D69EC100D7A4FD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DF928D69EC100D7A4FD /* InterfaceController.swift */; };
+		7C170DFC28D69EC100D7A4FD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DFB28D69EC100D7A4FD /* ExtensionDelegate.swift */; };
+		7C170DFE28D69EC100D7A4FD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DFD28D69EC100D7A4FD /* NotificationController.swift */; };
+		7C170E0028D69EC100D7A4FD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170DFF28D69EC100D7A4FD /* ComplicationController.swift */; };
+		7C170E0228D69EC200D7A4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C170E0128D69EC200D7A4FD /* Assets.xcassets */; };
+		7C170E0E28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E0D28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift */; };
+		7C170E1828D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E1728D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift */; };
+		7C170E1A28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C170DD328D69EC000D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DBB28D69EBF00D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1";
+		};
+		7C170DDD28D69EC000D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DBB28D69EBF00D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1";
+		};
+		7C170DE828D69EC000D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DE528D69EC000D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1 WatchKit App";
+		};
+		7C170DF628D69EC100D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DF328D69EC100D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1 WatchKit Extension";
+		};
+		7C170E0A28D69EC200D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DF328D69EC100D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1 WatchKit Extension";
+		};
+		7C170E1428D69EC200D7A4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C170DB428D69EBF00D7A4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C170DE528D69EC000D7A4FD;
+			remoteInfo = "Automatic MVP Attempt 1 WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C170E2028D69EC200D7A4FD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7C170DF528D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E2428D69EC200D7A4FD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7C170DE728D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C170DBC28D69EBF00D7A4FD /* Automatic MVP Attempt 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic MVP Attempt 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170DBF28D69EBF00D7A4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C170DC128D69EBF00D7A4FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C170DC328D69EBF00D7A4FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C170DC628D69EBF00D7A4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C170DC828D69EC000D7A4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C170DCB28D69EC000D7A4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C170DCD28D69EC000D7A4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C170DD228D69EC000D7A4FD /* Automatic MVP Attempt 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic MVP Attempt 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170DD628D69EC000D7A4FD /* Automatic_MVP_Attempt_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1Tests.swift; sourceTree = "<group>"; };
+		7C170DDC28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic MVP Attempt 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170DE028D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1UITests.swift; sourceTree = "<group>"; };
+		7C170DE228D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C170DE628D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic MVP Attempt 1 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170DEC28D69EC000D7A4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7C170DEE28D69EC100D7A4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C170DF428D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Automatic MVP Attempt 1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170DF928D69EC100D7A4FD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7C170DFB28D69EC100D7A4FD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7C170DFD28D69EC100D7A4FD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7C170DFF28D69EC100D7A4FD /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7C170E0128D69EC200D7A4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C170E0328D69EC200D7A4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C170E0428D69EC200D7A4FD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7C170E0928D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic MVP Attempt 1 WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170E0D28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		7C170E1328D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic MVP Attempt 1 WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C170E1728D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C170DB928D69EBF00D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DCF28D69EC000D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DD928D69EC000D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DF128D69EC100D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E0628D69EC200D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E1028D69EC200D7A4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C170DB328D69EBF00D7A4FD = {
+			isa = PBXGroup;
+			children = (
+				7C170DBE28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */,
+				7C170DD528D69EC000D7A4FD /* Automatic MVP Attempt 1Tests */,
+				7C170DDF28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests */,
+				7C170DEA28D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */,
+				7C170DF828D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */,
+				7C170E0C28D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests */,
+				7C170E1628D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests */,
+				7C170DBD28D69EBF00D7A4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C170DBD28D69EBF00D7A4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DBC28D69EBF00D7A4FD /* Automatic MVP Attempt 1.app */,
+				7C170DD228D69EC000D7A4FD /* Automatic MVP Attempt 1Tests.xctest */,
+				7C170DDC28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests.xctest */,
+				7C170DE628D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app */,
+				7C170DF428D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex */,
+				7C170E0928D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests.xctest */,
+				7C170E1328D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C170DBE28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DBF28D69EBF00D7A4FD /* AppDelegate.swift */,
+				7C170DC128D69EBF00D7A4FD /* SceneDelegate.swift */,
+				7C170DC328D69EBF00D7A4FD /* ViewController.swift */,
+				7C170DC528D69EBF00D7A4FD /* Main.storyboard */,
+				7C170DC828D69EC000D7A4FD /* Assets.xcassets */,
+				7C170DCA28D69EC000D7A4FD /* LaunchScreen.storyboard */,
+				7C170DCD28D69EC000D7A4FD /* Info.plist */,
+			);
+			path = "Automatic MVP Attempt 1";
+			sourceTree = "<group>";
+		};
+		7C170DD528D69EC000D7A4FD /* Automatic MVP Attempt 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DD628D69EC000D7A4FD /* Automatic_MVP_Attempt_1Tests.swift */,
+			);
+			path = "Automatic MVP Attempt 1Tests";
+			sourceTree = "<group>";
+		};
+		7C170DDF28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DE028D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITests.swift */,
+				7C170DE228D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITestsLaunchTests.swift */,
+			);
+			path = "Automatic MVP Attempt 1UITests";
+			sourceTree = "<group>";
+		};
+		7C170DEA28D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DEB28D69EC000D7A4FD /* Interface.storyboard */,
+				7C170DEE28D69EC100D7A4FD /* Assets.xcassets */,
+			);
+			path = "Automatic MVP Attempt 1 WatchKit App";
+			sourceTree = "<group>";
+		};
+		7C170DF828D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7C170DF928D69EC100D7A4FD /* InterfaceController.swift */,
+				7C170DFB28D69EC100D7A4FD /* ExtensionDelegate.swift */,
+				7C170DFD28D69EC100D7A4FD /* NotificationController.swift */,
+				7C170DFF28D69EC100D7A4FD /* ComplicationController.swift */,
+				7C170E0128D69EC200D7A4FD /* Assets.xcassets */,
+				7C170E0328D69EC200D7A4FD /* Info.plist */,
+				7C170E0428D69EC200D7A4FD /* PushNotificationPayload.apns */,
+			);
+			path = "Automatic MVP Attempt 1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7C170E0C28D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C170E0D28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift */,
+			);
+			path = "Automatic MVP Attempt 1 WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		7C170E1628D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C170E1728D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift */,
+				7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Automatic MVP Attempt 1 WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C170DBB28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E2528D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1" */;
+			buildPhases = (
+				7C170DB828D69EBF00D7A4FD /* Sources */,
+				7C170DB928D69EBF00D7A4FD /* Frameworks */,
+				7C170DBA28D69EBF00D7A4FD /* Resources */,
+				7C170E2428D69EC200D7A4FD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170DE928D69EC000D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1";
+			productName = "Automatic MVP Attempt 1";
+			productReference = 7C170DBC28D69EBF00D7A4FD /* Automatic MVP Attempt 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C170DD128D69EC000D7A4FD /* Automatic MVP Attempt 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E2828D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1Tests" */;
+			buildPhases = (
+				7C170DCE28D69EC000D7A4FD /* Sources */,
+				7C170DCF28D69EC000D7A4FD /* Frameworks */,
+				7C170DD028D69EC000D7A4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170DD428D69EC000D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1Tests";
+			productName = "Automatic MVP Attempt 1Tests";
+			productReference = 7C170DD228D69EC000D7A4FD /* Automatic MVP Attempt 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C170DDB28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E2B28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1UITests" */;
+			buildPhases = (
+				7C170DD828D69EC000D7A4FD /* Sources */,
+				7C170DD928D69EC000D7A4FD /* Frameworks */,
+				7C170DDA28D69EC000D7A4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170DDE28D69EC000D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1UITests";
+			productName = "Automatic MVP Attempt 1UITests";
+			productReference = 7C170DDC28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7C170DE528D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E2128D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit App" */;
+			buildPhases = (
+				7C170DE428D69EC000D7A4FD /* Resources */,
+				7C170E2028D69EC200D7A4FD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170DF728D69EC100D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1 WatchKit App";
+			productName = "Automatic MVP Attempt 1 WatchKit App";
+			productReference = 7C170DE628D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7C170DF328D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E1D28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit Extension" */;
+			buildPhases = (
+				7C170DF028D69EC100D7A4FD /* Sources */,
+				7C170DF128D69EC100D7A4FD /* Frameworks */,
+				7C170DF228D69EC100D7A4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automatic MVP Attempt 1 WatchKit Extension";
+			productName = "Automatic MVP Attempt 1 WatchKit Extension";
+			productReference = 7C170DF428D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7C170E0828D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E2E28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit AppTests" */;
+			buildPhases = (
+				7C170E0528D69EC200D7A4FD /* Sources */,
+				7C170E0628D69EC200D7A4FD /* Frameworks */,
+				7C170E0728D69EC200D7A4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170E0B28D69EC200D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1 WatchKit AppTests";
+			productName = "Automatic MVP Attempt 1 WatchKit AppTests";
+			productReference = 7C170E0928D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C170E1228D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C170E3128D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit AppUITests" */;
+			buildPhases = (
+				7C170E0F28D69EC200D7A4FD /* Sources */,
+				7C170E1028D69EC200D7A4FD /* Frameworks */,
+				7C170E1128D69EC200D7A4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C170E1528D69EC200D7A4FD /* PBXTargetDependency */,
+			);
+			name = "Automatic MVP Attempt 1 WatchKit AppUITests";
+			productName = "Automatic MVP Attempt 1 WatchKit AppUITests";
+			productReference = 7C170E1328D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C170DB428D69EBF00D7A4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7C170DBB28D69EBF00D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7C170DD128D69EC000D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7C170DBB28D69EBF00D7A4FD;
+					};
+					7C170DDB28D69EC000D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7C170DBB28D69EBF00D7A4FD;
+					};
+					7C170DE528D69EC000D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7C170DF328D69EC100D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7C170E0828D69EC200D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7C170DF328D69EC100D7A4FD;
+					};
+					7C170E1228D69EC200D7A4FD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7C170DE528D69EC000D7A4FD;
+					};
+				};
+			};
+			buildConfigurationList = 7C170DB728D69EBF00D7A4FD /* Build configuration list for PBXProject "Automatic MVP Attempt 1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C170DB328D69EBF00D7A4FD;
+			productRefGroup = 7C170DBD28D69EBF00D7A4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C170DBB28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */,
+				7C170DD128D69EC000D7A4FD /* Automatic MVP Attempt 1Tests */,
+				7C170DDB28D69EC000D7A4FD /* Automatic MVP Attempt 1UITests */,
+				7C170DE528D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */,
+				7C170DF328D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */,
+				7C170E0828D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests */,
+				7C170E1228D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C170DBA28D69EBF00D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DCC28D69EC000D7A4FD /* LaunchScreen.storyboard in Resources */,
+				7C170DC928D69EC000D7A4FD /* Assets.xcassets in Resources */,
+				7C170DC728D69EBF00D7A4FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DD028D69EC000D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DDA28D69EC000D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DE428D69EC000D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DEF28D69EC100D7A4FD /* Assets.xcassets in Resources */,
+				7C170DED28D69EC000D7A4FD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DF228D69EC100D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170E0228D69EC200D7A4FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E0728D69EC200D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E1128D69EC200D7A4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C170DB828D69EBF00D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DC428D69EBF00D7A4FD /* ViewController.swift in Sources */,
+				7C170DC028D69EBF00D7A4FD /* AppDelegate.swift in Sources */,
+				7C170DC228D69EBF00D7A4FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DCE28D69EC000D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DD728D69EC000D7A4FD /* Automatic_MVP_Attempt_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DD828D69EC000D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DE328D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITestsLaunchTests.swift in Sources */,
+				7C170DE128D69EC000D7A4FD /* Automatic_MVP_Attempt_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170DF028D69EC100D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170DFE28D69EC100D7A4FD /* NotificationController.swift in Sources */,
+				7C170E0028D69EC100D7A4FD /* ComplicationController.swift in Sources */,
+				7C170DFC28D69EC100D7A4FD /* ExtensionDelegate.swift in Sources */,
+				7C170DFA28D69EC100D7A4FD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E0528D69EC200D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170E0E28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C170E0F28D69EC200D7A4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C170E1828D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift in Sources */,
+				7C170E1A28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C170DD428D69EC000D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DBB28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */;
+			targetProxy = 7C170DD328D69EC000D7A4FD /* PBXContainerItemProxy */;
+		};
+		7C170DDE28D69EC000D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DBB28D69EBF00D7A4FD /* Automatic MVP Attempt 1 */;
+			targetProxy = 7C170DDD28D69EC000D7A4FD /* PBXContainerItemProxy */;
+		};
+		7C170DE928D69EC000D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DE528D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */;
+			targetProxy = 7C170DE828D69EC000D7A4FD /* PBXContainerItemProxy */;
+		};
+		7C170DF728D69EC100D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DF328D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */;
+			targetProxy = 7C170DF628D69EC100D7A4FD /* PBXContainerItemProxy */;
+		};
+		7C170E0B28D69EC200D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DF328D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */;
+			targetProxy = 7C170E0A28D69EC200D7A4FD /* PBXContainerItemProxy */;
+		};
+		7C170E1528D69EC200D7A4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C170DE528D69EC000D7A4FD /* Automatic MVP Attempt 1 WatchKit App */;
+			targetProxy = 7C170E1428D69EC200D7A4FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C170DC528D69EBF00D7A4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C170DC628D69EBF00D7A4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C170DCA28D69EC000D7A4FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C170DCB28D69EC000D7A4FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7C170DEB28D69EC000D7A4FD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C170DEC28D69EC000D7A4FD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C170E1B28D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C170E1C28D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7C170E1E28D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic MVP Attempt 1 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7C170E1F28D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic MVP Attempt 1 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7C170E2228D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Automatic_MVP_Attempt_1_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "juliendev.Automatic-MVP-Attempt-1";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7C170E2328D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Automatic_MVP_Attempt_1_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "juliendev.Automatic-MVP-Attempt-1";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7C170E2628D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic MVP Attempt 1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C170E2728D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic MVP Attempt 1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C170E2928D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic MVP Attempt 1.app/Automatic MVP Attempt 1";
+			};
+			name = Debug;
+		};
+		7C170E2A28D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic MVP Attempt 1.app/Automatic MVP Attempt 1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C170E2C28D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic MVP Attempt 1";
+			};
+			name = Debug;
+		};
+		7C170E2D28D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic MVP Attempt 1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C170E2F28D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic MVP Attempt 1 WatchKit Extension.appex/Automatic MVP Attempt 1 WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7C170E3028D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic MVP Attempt 1 WatchKit Extension.appex/Automatic MVP Attempt 1 WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7C170E3228D69EC200D7A4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Automatic MVP Attempt 1 WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7C170E3328D69EC200D7A4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-MVP-Attempt-1-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Automatic MVP Attempt 1 WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C170DB728D69EBF00D7A4FD /* Build configuration list for PBXProject "Automatic MVP Attempt 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E1B28D69EC200D7A4FD /* Debug */,
+				7C170E1C28D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E1D28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E1E28D69EC200D7A4FD /* Debug */,
+				7C170E1F28D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E2128D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E2228D69EC200D7A4FD /* Debug */,
+				7C170E2328D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E2528D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E2628D69EC200D7A4FD /* Debug */,
+				7C170E2728D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E2828D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E2928D69EC200D7A4FD /* Debug */,
+				7C170E2A28D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E2B28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E2C28D69EC200D7A4FD /* Debug */,
+				7C170E2D28D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E2E28D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E2F28D69EC200D7A4FD /* Debug */,
+				7C170E3028D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C170E3128D69EC200D7A4FD /* Build configuration list for PBXNativeTarget "Automatic MVP Attempt 1 WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C170E3228D69EC200D7A4FD /* Debug */,
+				7C170E3328D69EC200D7A4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C170DB428D69EBF00D7A4FD /* Project object */;
+}
