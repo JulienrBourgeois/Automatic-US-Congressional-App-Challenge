@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>To track basketball shots</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>To track basketball shots</string>
+	<key>NSMotionUsageDescription</key>
+	<string>To track basketball shots</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>To track basketball shots</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

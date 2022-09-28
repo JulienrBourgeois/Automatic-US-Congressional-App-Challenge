@@ -28,6 +28,8 @@
 		7C170E0E28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E0D28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppTests.swift */; };
 		7C170E1828D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E1728D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift */; };
 		7C170E1A28D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */; };
+		7C880F2D28DA1C6B00689098 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C880F2C28DA1C6B00689098 /* HealthKit.framework */; };
+		7CAFA20428DE5F2C00C2A5A6 /* BestModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFA20328DE5F2C00C2A5A6 /* BestModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,9 @@
 		7C170E1328D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic MVP Attempt 1 WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C170E1728D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C880F2A28DA1C6B00689098 /* Automatic MVP Attempt 1 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Automatic MVP Attempt 1 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		7C880F2C28DA1C6B00689098 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		7CAFA20328DE5F2C00C2A5A6 /* BestModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BestModel.mlmodel; path = ../../../Desktop/BestModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C880F2D28DA1C6B00689098 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +195,7 @@
 				7C170E0C28D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppTests */,
 				7C170E1628D69EC200D7A4FD /* Automatic MVP Attempt 1 WatchKit AppUITests */,
 				7C170DBD28D69EBF00D7A4FD /* Products */,
+				7C880F2B28DA1C6B00689098 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +256,8 @@
 		7C170DF828D69EC100D7A4FD /* Automatic MVP Attempt 1 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7C880F2A28DA1C6B00689098 /* Automatic MVP Attempt 1 WatchKit Extension.entitlements */,
+				7CAFA20328DE5F2C00C2A5A6 /* BestModel.mlmodel */,
 				7C170DF928D69EC100D7A4FD /* InterfaceController.swift */,
 				7C170DFB28D69EC100D7A4FD /* ExtensionDelegate.swift */,
 				7C170DFD28D69EC100D7A4FD /* NotificationController.swift */,
@@ -275,6 +284,14 @@
 				7C170E1928D69EC200D7A4FD /* Automatic_MVP_Attempt_1_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "Automatic MVP Attempt 1 WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		7C880F2B28DA1C6B00689098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C880F2C28DA1C6B00689098 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,6 +575,7 @@
 			files = (
 				7C170DFE28D69EC100D7A4FD /* NotificationController.swift in Sources */,
 				7C170E0028D69EC100D7A4FD /* ComplicationController.swift in Sources */,
+				7CAFA20428DE5F2C00C2A5A6 /* BestModel.mlmodel in Sources */,
 				7C170DFC28D69EC100D7A4FD /* ExtensionDelegate.swift in Sources */,
 				7C170DFA28D69EC100D7A4FD /* InterfaceController.swift in Sources */,
 			);
@@ -756,15 +774,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Automatic MVP Attempt 1 WatchKit Extension/Automatic MVP Attempt 1 WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6VX79UV28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Automatic MVP Attempt 1 WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Automatic_MVP_Attempt_1_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To track basketball shots";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_NSMotionUsageDescription = "To track basketball shots";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To track basketball shots";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Automatic_MVP_Attempt_1_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -787,15 +809,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Automatic MVP Attempt 1 WatchKit Extension/Automatic MVP Attempt 1 WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6VX79UV28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Automatic MVP Attempt 1 WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Automatic MVP Attempt 1 WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Automatic_MVP_Attempt_1_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To track basketball shots";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_NSMotionUsageDescription = "To track basketball shots";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "To track basketball shots";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Automatic_MVP_Attempt_1_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
